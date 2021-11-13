@@ -17,7 +17,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-// Replace populateddb with name of new database (workoutdb?)
+// Connect to Mongo database
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
 
 
