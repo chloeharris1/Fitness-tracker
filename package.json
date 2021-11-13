@@ -1,7 +1,7 @@
 {
   "name": "mongoose_skeleton",
   "version": "1.0.0",
-  "description": "",
+  "description": "- [Description](#description)\r - [Usage](#usage)\r - [Screenshots](#screenshots)\r - [App Link](#app-link)\r - [Questions](#questions)",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -15,5 +15,15 @@
     "express": "^4.16.3",
     "mongoose": "^5.3.16",
     "morgan": "^1.9.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chloeharris1/Fitness-tracker.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/chloeharris1/Fitness-tracker/issues"
+  },
+  "homepage": "https://github.com/chloeharris1/Fitness-tracker#readme"
 }
