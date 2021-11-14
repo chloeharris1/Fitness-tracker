@@ -4,10 +4,8 @@ const mongoose = require("mongoose");
 
 const PORT = process.env.PORT || 3000;
 
-const db = require("./models");
+// const db = require("./models");
 
-// Importing model
-const User = require("./Workout.js");
 const app = express();
 
 app.use(logger("dev"));
@@ -19,6 +17,8 @@ app.use(express.static("public"));
 
 // Connect to Mongo database
 mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/workout", { useNewUrlParser: true });
+
+
 
 
 // Start the server
